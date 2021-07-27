@@ -6,12 +6,17 @@
 //---------------------------
 
 //--------------------------
-import { Roadmap } from "./screens";
+import Routes from "./routes";
+import { BrowserRouter } from "react-router-dom";
 //--------------------------
 
 //--------------------------
 function App() {
-  return <Roadmap></Roadmap>;
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  );
 }
 //--------------------------
 
