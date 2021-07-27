@@ -7,7 +7,6 @@
 
 //---------------------------
 import { Roadmap } from "../screens";
-import { JourneyIcon } from "../components";
 import ListIcon from "@material-ui/icons/List";
 import TimelineIcon from "@material-ui/icons/Timeline";
 //---------------------------

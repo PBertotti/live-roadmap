@@ -33,18 +33,18 @@ const useStyles = makeStyles(theme => ({
   },
   selectedItem: {
     display: "flex",
-    backgroundColor: "#00A335",
+    backgroundColor: theme.palette.primary.main,
     borderRadius: "4px",
     width: "200px",
     height: "40px",
     marginLeft: "15px",
     justifyContent: "start",
     marginTop: "15px",
-    color: "#fff",
+    color: theme.palette.secondary.main,
   },
   unselectedItem: {
     display: "flex",
-    backgroundColor: "#FFFFF",
+    backgroundColor: theme.palette.secondary.main,
     borderRadius: "4px",
     width: "200px",
     height: "40px",
@@ -96,7 +96,13 @@ const Menu = props => {
               onClick={() => handleMenuSelection(route.path)}
             >
               <route.icon />
-              <Typography style={{ marginLeft: "7px", fontWeight: "700" }}>
+              <Typography
+                style={{
+                  marginLeft: "7px",
+                  fontWeight: "600",
+                  textTransform: "capitalize",
+                }}
+              >
                 {route.title}
               </Typography>
             </Button>
