@@ -6,7 +6,7 @@
 //---------------------------
 
 //---------------------------
-import { Roadmap } from "../screens";
+import { Roadmap, Changelog } from "../screens";
 import ListIcon from "@material-ui/icons/List";
 import TimelineIcon from "@material-ui/icons/Timeline";
 //---------------------------
@@ -27,7 +27,7 @@ const routeConfig = {
       type: "public",
       title: "Changelog",
       icon: ListIcon,
-      screen: Roadmap,
+      screen: Changelog,
     },
   ],
 };

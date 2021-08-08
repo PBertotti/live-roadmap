@@ -6,16 +6,20 @@
 //---------------------------
 
 //--------------------------
-
+import { useEffect } from "react";
+import { projects, releases } from "../config";
 //--------------------------
 
 //--------------------------
 const Roadmap = () => {
-  return (
-    <div>
-      <h1>Roadmap Screen!</h1>
-    </div>
-  );
+  let boardWidth;
+
+  useEffect(() => {
+    const firstReleaseDate = releases[0].date;
+    const lastReleaseDate = releases[releases.length - 1].date;
+  }, []);
+
+  return <div></div>;
 };
 //--------------------------
 
