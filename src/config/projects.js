@@ -17,11 +17,11 @@ const projects = [
     image: ifleetWeb,
     stages: [
       {
-        startDate: "28-06-2021",
+        startDate: "2021-06-28",
         type: "waiting",
       },
       {
-        startDate: "30-09-2021",
+        startDate: "2021-09-30",
         type: "development",
       },
     ],
@@ -38,11 +38,11 @@ const projects = [
     image: ifleetTracking,
     stages: [
       {
-        startDate: "28-06-2021",
+        startDate: "2021-06-28",
         type: "waiting",
       },
       {
-        startDate: "30-09-2021",
+        startDate: "2021-09-30",
         type: "development",
       },
     ],

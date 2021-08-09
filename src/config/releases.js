@@ -16,7 +16,7 @@ const releases = [
     uuid: "000-000",
     title: "FASE 0 - DESENVOLVIMENTO INICIAL",
     isFinal: true,
-    date: "30-09-2021",
+    date: "2021-09-30",
     image: phaseZero,
     features: [
       {
@@ -30,7 +30,7 @@ const releases = [
     uuid: "111-111",
     title: "FASE 1 - AMBIENTE LOCAL",
     isFinal: true,
-    date: "30-05-2022",
+    date: "2022-05-30",
     image: phaseOne,
     features: [
       {
